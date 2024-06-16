@@ -52,7 +52,7 @@ const UserMenu: React.FC<UserMenuProps> = ({ currentUser }) => {
                     hover:shadow-md transition ">
 					<AiOutlineMenu />
 					<div className="hidden md:block">
-						<Avatar src="/placeholder.png" />
+						<Avatar src="/images/placeholder.jpg" />
 					</div>
 				</div>
 			</div>
