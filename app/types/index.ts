@@ -20,5 +20,5 @@ export type SafeUser = Omit<
 > & {
 	createdAt: string;
 	updatedAt: string;
-	emailVerified: string | null;
+	emailVerified?: string | undefined;
 };
